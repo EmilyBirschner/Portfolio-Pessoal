@@ -82,22 +82,25 @@ nav {
 .main-banner p {
     margin: 40px;
     color: #fafafa;
-    text-align: justify;
+    text-align: center;
     font-weight: bold;  
     text-shadow: 4px 4px 6px #000;
 }
 
 .main-banner h1 {
-    font-size: 54px;
+    font-size: 48px;
 }
 
 .main-banner p {
-    font-size: 32px;
+    font-size: 26px;
 }
 
 /* Services */
 .services-container {
     padding: 5rem 0;
+}
+.services-container p {
+    font-size: 16px;
 }
 
 .services-container ul {
