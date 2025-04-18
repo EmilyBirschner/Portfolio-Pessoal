@@ -73,7 +73,7 @@ nav {
 
 /* main banner */
 .main-banner {
-    background-image: url("../img/mainbanner.png");
+    background-image: url("../img/planoDeFundo.jpg");
     background-size: cover;
     background-position: center;
     padding: 10rem 0;
@@ -81,10 +81,11 @@ nav {
 
 .main-banner h1,
 .main-banner p {
+    margin: 20px;
     color: #fff;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: #000 3px 2px 3px;
+    text-align: justify;
+    font-weight: bold;  
+    text-shadow: 2px 2px 4px #000;
 }
 
 .main-banner h1 {
@@ -93,6 +94,10 @@ nav {
 
 .main-banner p {
     font-size: 32px;
+}
+.main-banner image {
+    filter: blur(50%);
+
 }
 
 /* Services */
@@ -113,21 +118,21 @@ nav {
     padding: 20px;
 }
 
-.fas {
+.fa-solid {
     font-size: 60px;
     margin-bottom: 15px;
 }
 
-.fa-shield-alt {
-    color: #2cc76a;
+.fa-brain {
+    color: #44749d;
 }
 
-.fa-rocket {
-    color: #ef3f29;
+.fa-puzzle-piece {
+    color: #44749d;
 }
 
-.fa-comments {
-    color: #ef8f29;
+.fa-magnifying-glass {
+    color: #44749d;
 }
 
 .services-container h3 {
