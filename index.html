@@ -100,12 +100,13 @@
                 <p>Preencha o formulário e entrarei em contato com você em breve</p>
             
                 <form action="https://formsubmit.co/emilyb.oliveira@hotmail.com" method="POST">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    
                     <input type="text" name="name" id="name" placeholder="Seu nome" required>
                     <input type="email" name="email" id="email" placeholder="Seu email" required>
                     <textarea name="message" id="message" placeholder="Conte um pouco sobre o que você precisa…" required></textarea>
             
-                    <!-- opções extras -->
-                    <input type="hidden" name="_captcha" value="false">
                     
                     <input type="submit" value="Enviar">
                 </form>
