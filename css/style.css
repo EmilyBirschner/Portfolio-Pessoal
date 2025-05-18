@@ -22,8 +22,8 @@ p {
     height: 80px;
     background-color: #232a31;
     padding: 0 2rem;
-    position: fixed;  
-    
+    position: fixed;
+
 }
 
 nav {
@@ -32,7 +32,7 @@ nav {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 .logo {
     width: 50px;
@@ -57,7 +57,7 @@ html {
 .navbar-items a {
     color: #fff;
     text-decoration: none;
-    transition: 0.5s;    
+    transition: 0.5s;
 }
 
 .navbar-items a:hover {
@@ -88,7 +88,7 @@ html {
     margin: 40px;
     color: #fafafa;
     text-align: center;
-    font-weight: lighter;  
+    font-weight: lighter;
     text-shadow: 4px 4px 6px #000;
 }
 
@@ -103,8 +103,9 @@ html {
 /* Services */
 .services-container {
     padding: 5rem 0;
-    
+
 }
+
 .services-container p {
     font-size: 16px;
 }
@@ -173,36 +174,43 @@ html {
     flex-wrap: wrap;
     gap: 30px;
     padding: 40px 20px;
-  }
-  
-  .card-projeto {
+}
+
+.card-projeto {
     width: 350px;
     background: #ffffff;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
-  
-  .card-projeto h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-projeto h3 {
     font-size: 18px;
     color: #003366;
     margin-bottom: 10px;
-  }
-  
-  .card-projeto p {
+}
+
+.card-projeto p {
     font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.5;
     text-align: center;
-  }
-  
-  .card-projeto img {
+}
+
+.card-projeto img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-  }
-  
+    border-radius: 12px;
+}
+
+.card-content {
+    margin-bottom: 20px;
+}
+
 
 /* contact form */
 .contact-container {
@@ -259,12 +267,12 @@ html {
     margin-top: 15px;
     font-weight: bold;
     transition: opacity 0.5s ease;
-  }
-  
-  .hidden {
+}
+
+.hidden {
     display: none;
-  }
-  
+}
+
 
 /* footer */
 footer {
